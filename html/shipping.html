@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/shipping.css">
+    <link rel = "icon" href ="/pic/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <title>SHIPPING</title>
+</head>
+<body>
+    <header>
+        <div class="logo">TRACKING NUMBER</div>
+        <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li>
+                    <a href="index.html" >HOME</a>
+                </li>
+                <li>
+                    <a href="tdh.html" >TRACK DELIVERY HISTORY</a>
+                </li>
+                <li>
+                    <a href="shipping.html" class="active">SHIPPING</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <div class="text-center">
+        <h1>
+            <p>จัดส่งสินค้า</p>
+        </h1>
+    </div>
+<div class="container" >
+        <h3><p>ข้อมูลผู้จัดส่ง</p></h3>     
+</div>
+<div class="form-floating1 ">
+    <input type="text" class="form-control" id="fname" placeholder="Name" style="font-size: 1.4rem;">
+    <p></p>
+    <input type="text" class="form-control" id="cid" placeholder="ID card number" style="font-size: 1.4rem;">
+    <p></p>
+    <input type="text" class="form-control" id="address" placeholder="Address" style="font-size: 1.4rem;">
+    <p></p>
+    <input type="text" class="form-control" id="phoneno" placeholder="Phone number" style="font-size: 1.4rem;">
+    <p></p>
+    <input type="date" value="0000-00-00" >
+    <p></p>
+</div>
+<img src="/pic/logo.png" Align ="right"  hspace=”50”>
+<div class="container" >
+    <p></p>
+    <h3><p>ข้อมูลผู้รับ</p></h3>     
+</div>
+<div class="form-floating1 ">
+<input type="text" class="form-control" id="fname" placeholder="Name" style="font-size: 1.4rem;">
+<p></p>
+<input type="text" class="form-control" id="address" placeholder="Address" style="font-size: 1.4rem;">
+<p></p>
+<input type="text" class="form-control" id="phoneno" placeholder="Phone number" style="font-size: 1.4rem;">
+<p></p>
+<button type="button" class="btn btn-warning" style="font-size:1.4rem;color: rgb(0, 0, 0);">SAVE</button> <button type="button" class="btn btn-warning" style="font-size:1.4rem;color: rgb(0, 0, 0);">PRINT</button> 
+</div>
+    <script>
+        hamburger = document.querySelector(".hamburger");
+        hamburger.onclick = function(){
+            navBar = document.querySelector(".nav-bar");
+            navBar.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
