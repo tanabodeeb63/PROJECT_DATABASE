@@ -37,6 +37,7 @@ header{
 
 .nav-bar ul{
     display: flex;
+    margin-top: 2%;
 }
 
 .nav-bar ul li a{
@@ -116,6 +117,9 @@ header{
     }
 }
 
+.text-center{
+    margin-top: 1%;
+}
 .form-floating{
     max-width: 50rem;
     margin: auto;
